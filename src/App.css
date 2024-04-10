@@ -40,13 +40,19 @@
   will-change: filter;
   transition: filter 300ms;
 }
+.logo-sm {
+  height: 4em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
 .logo.shamrock {
   height: 3em;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em #27a020f2);
 }
-.logo.react:hover {
+.logo-sm:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
@@ -78,6 +84,7 @@
 
 .card {
   padding: 2em;
+  text-align: start;
 }
 
 .read-the-docs {

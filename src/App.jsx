@@ -1,6 +1,12 @@
 import { useState } from 'react'
 import shamrock from './assets/shamrock.png'
+import reactLogo from './assets/react.svg'
 import SFlogo from './assets/SF_logo.png'
+import jsLogo from './assets/jsLogo.png'
+import expressLogo from './assets/Expressjs.svg'
+import pythonLogo from './assets/pylogo.png'
+import flaskLogo from './assets/flask.svg'
+import psqlLogo from './assets/psql.png'
 import './App.css'
 
 function App() {
@@ -20,12 +26,25 @@ function App() {
           count is {count}
         </button>
         <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+          Full-stack graduate, engineering first in Python. 
         </p>
+        <p>
+          Instructor of Python Engineering at Hackbright Academy.
+        </p>
+        <p>
+          Instructor of Web Development at Devmountain.
+        </p>
+          <span>
+            <img className='logo-sm' src={pythonLogo} alt="" />
+            <img className='logo-sm' src={flaskLogo} alt="" />
+            <img className='logo-sm' src={psqlLogo} alt="" />
+          </span>
+          <span>
+            <img className='logo-sm' src={jsLogo} alt="" />
+            <img className='logo-sm' src={reactLogo} alt="" />
+            <img className='logo-sm' src={expressLogo} alt="" />
+          </span>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   )
 }
