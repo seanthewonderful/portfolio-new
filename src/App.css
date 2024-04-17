@@ -27,6 +27,21 @@
 .logo-sm:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
+.logo2 {
+  height: 3em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo2:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa)
+}
+
+#links-logos {
+  display: flex;
+  justify-content: center;
+}
 
 @keyframes logo-spin-cw {
   from {

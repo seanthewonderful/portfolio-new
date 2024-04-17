@@ -129,22 +129,40 @@ button:focus-visible {
   z-Index: 1000
 }
 #modal-content {
-  width: 50vw;
+  width: 60vw;
+  height: fit-content;
+  max-height: 100vh;
   background-color: rgba(12, 43, 1, 0.8);
   border-radius: 10%;
   border: 2px goldenrod;
-  padding: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   color: rgb(246, 211, 146);
+  
+  /* overflow: scroll; */
 }
 #profile-img {
-  height: 20vh;
+  height: 25vh;
+  border-radius: 10%;
+}
+#about-logo {
+  height: 15vh;
   border-radius: 10%;
 }
 
 #about {
   margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 2vh;
 }
 
+#contact {
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+
+}
 #contact-form {
   display: flex;
   justify-content: center;
@@ -155,4 +173,25 @@ button:focus-visible {
 
 input, textarea {
   margin: 2%;
+}
+
+#projects {
+  width: 94%;
+  max-height: 90vh;
+  overflow: auto;
+  text-align: start;
+  margin-left: 5%;
+  /* margin-right: 5%; */
+}
+#projects h2 {
+  text-align: center;
+}
+.project-section {
+  border-bottom: 1px solid gold;
+}
+.project-ul {
+  columns: 2;
+}
+.project-img {
+  height: 25vh;
 }

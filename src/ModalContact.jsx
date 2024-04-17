@@ -28,7 +28,7 @@ function ModalContact() {
   }
 
   return (
-    <div className='fondamento'>
+    <div className='fondamento' id='contact'>
       {!sent ? (
         <form id='contact-form' ref={form} onSubmit={sendEmail}>
           Your Name:

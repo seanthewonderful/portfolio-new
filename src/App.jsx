@@ -9,6 +9,8 @@ import expressLogo from './assets/Expressjs.svg'
 import pythonLogo from './assets/pylogo.png'
 import flaskLogo from './assets/flask.svg'
 import psqlLogo from './assets/psql.png'
+import linkedinLogo from './assets/linkedin.png'
+import ghLogo from './assets/github.png'
 
 import './App.css'
 
@@ -80,6 +82,17 @@ function App() {
       </div>
 
       <h1 className='fondamento'>Sean Fagan</h1>
+      <div id='links-logos' className='fondamento'>
+        <a href="https://www.linkedin.com/in/sean-p-fagan/">
+          <img className='logo2' src={linkedinLogo} alt="" />
+          <br/>LinkedIn
+        </a>
+        <a href="https://github.com/seanthewonderful">
+          <img className='logo2' src={ghLogo} alt="" />
+          <br/>Github
+        </a>
+      </div>
+
       <div className="card fondamento">
         <p>
           Full-stack graduate of Python Engineering. 
