@@ -103,16 +103,16 @@ function App() {
         <p>
           Instructor of Web Development at Devmountain.
         </p>
-          <span>
-            <img className='logo-sm' src={pythonLogo} alt="" />
-            <img className='logo-sm' src={flaskLogo} alt="" />
-            <img className='logo-sm' src={psqlLogo} alt="" />
-          </span>
-          <span>
-            <img className='logo-sm' src={jsLogo} alt="" />
-            <img className='logo-sm' src={reactLogo} alt="" />
-            <img className='logo-sm' src={expressLogo} alt="" />
-          </span>
+        <span>
+          <img className='logo-sm' src={pythonLogo} alt="" />
+          <img className='logo-sm' src={flaskLogo} alt="" />
+          <img className='logo-sm' src={psqlLogo} alt="" />
+        </span>
+        <span>
+          <img className='logo-sm' src={jsLogo} alt="" />
+          <img className='logo-sm' src={reactLogo} alt="" />
+          <img className='logo-sm' src={expressLogo} alt="" />
+        </span>
       </div>
 
       <ModalCommand 

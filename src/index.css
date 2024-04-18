@@ -4,9 +4,10 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(149, 60, 0, 0.87);
+  color: rgba(116, 46, 0, 0.87);
   /* background-color: #242424; */
   background-image: url(https://wallpapercave.com/wp/wp7035502.jpg);
+  /* background-image: url(https://wallpapercave.com/wp/wp7620722.png); */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -57,7 +58,6 @@
 }
 
 
-
 a {
   font-weight: 500;
   color: #646cff;
@@ -103,19 +103,6 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-/* @media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: linear-gradient(179.1deg, rgb(43, 170, 96) 2.3%, rgb(129, 204, 104) 98.3%);
-  }
-} */
-
 .modal {
   position: fixed;
   display: flex;
@@ -138,9 +125,26 @@ button:focus-visible {
   padding-top: 5%;
   padding-bottom: 5%;
   color: rgb(246, 211, 146);
-  
-  /* overflow: scroll; */
 }
+#projects-modal-content {
+  width: 90vw;
+  height: fit-content;
+  max-height: 100vh;
+  background-color: rgba(12, 43, 1, 0.8);
+  border-radius: 10%;
+  border: 2px goldenrod;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: rgb(246, 211, 146);
+}
+.desc-div {
+  display: flex;
+  justify-content: space-between;
+}
+.desc-div p {
+  padding-left: 1%;
+}
+
 #profile-img {
   height: 25vh;
   border-radius: 10%;

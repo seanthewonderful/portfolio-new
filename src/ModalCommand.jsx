@@ -10,7 +10,7 @@ function ModalCommand({ showModal, projects, about, contact, closeModal }) {
   return (
     <div className='modal'>
 
-      <div id='modal-content'>
+      <div id={projects ? 'projects-modal-content' : 'modal-content'}>
 
       <button onClick={closeModal}>Close</button>
 

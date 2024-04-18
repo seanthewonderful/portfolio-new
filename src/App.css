@@ -71,7 +71,13 @@
 
 .card {
   padding: 2em;
-  text-align: start;
+  text-align: center;
+  text-shadow: 0 0 2px white;
+  /* -webkit-text-stroke: 0.1px white; */
+}
+.card p {
+  font-size: larger;
+
 }
 
 .read-the-docs {
