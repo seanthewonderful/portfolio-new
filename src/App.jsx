@@ -52,7 +52,7 @@ function App() {
 
   return (
     <>
-      <ToastContainer 
+      <ToastContainer
         position="top-center"
         autoClose={5000}
         hideProgressBar={false}
@@ -85,23 +85,23 @@ function App() {
       <div id='links-logos' className='fondamento'>
         <a href="https://www.linkedin.com/in/sean-p-fagan/">
           <img className='logo2' src={linkedinLogo} alt="" />
-          <br/>LinkedIn
+          <br />LinkedIn
         </a>
         <a href="https://github.com/seanthewonderful">
           <img className='logo2' src={ghLogo} alt="" />
-          <br/>Github
+          <br />Github
         </a>
       </div>
 
       <div className="card fondamento">
         <p>
-          Full-stack graduate of Python Engineering. 
+          Full-stack graduate of Python Engineering.
+        </p>
+        <p>
+          Instructor of Web Development with React at Devmountain.
         </p>
         <p>
           Instructor of Python Engineering at Hackbright Academy.
-        </p>
-        <p>
-          Instructor of Web Development at Devmountain.
         </p>
         <span>
           <img className='logo-sm' src={pythonLogo} alt="" />
@@ -115,13 +115,13 @@ function App() {
         </span>
       </div>
 
-      <ModalCommand 
-        showModal={showModal} 
+      <ModalCommand
+        showModal={showModal}
         projects={showProjects}
         about={showAbout}
         contact={showContact}
         closeModal={closeModal}
-        />
+      />
     </>
   )
 }

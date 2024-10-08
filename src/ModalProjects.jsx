@@ -1,24 +1,33 @@
-import tArgus from './assets/tArgusMap.png'
-import knotts from './assets/knotts.png'
+import tArgusMap from './assets/tArgusMap.png'
+import tArgus from './assets/tArgus.png'
+import knottsMap from './assets/knottsMap.png'
+import knottsLogo from './assets/knotts.png'
 import disneyland from './assets/disneyland.png'
+import turkeyLeg from './assets/dis_turkey.jpg'
 import chatRoulette from './assets/chatroulette.png'
+import jollyRoger from './assets/jollyroger.jpg'
 import avgJoe from './assets/avgJoe.png'
+import roulette from './assets/roulette.jpg'
+import jury from './assets/jury.png'
 import llCards from './assets/llCards.png'
+import llbleague from './assets/littleBigLeaguers.png'
 
 function ModalProjects() {
   return (
     <div id='projects' className='fondamento'>
       <section className='project-section'>
 
-        <h2>T-Argus</h2>
+        <span className='project-span'>
+          <img className='project-logo' src={tArgus} alt="" />
+          <h2>T-Argus</h2>
+        </span>
         <b style={{ textDecoration: 'underline' }}>Technologies:</b>
         <ul className='project-ul'>
           <li>Python</li>
-          <li>Pytesseract</li>
           <li>React</li>
           <li>ViteExpress</li>
           <li>PostgreSQL</li>
-          <li>Sequelize</li>
+          <li>Sequelize/SQLAlchemy</li>
           <li>Socket.io</li>
           <li>Puppeteer</li>
           <li>Selenium</li>
@@ -28,11 +37,11 @@ function ModalProjects() {
 
         <div className='desc-div lancelot'>
           <a href="http://ec2-54-193-62-149.us-west-1.compute.amazonaws.com/" target='_blank' >
-            <img className='project-img' src={tArgus} />
+            <img className='project-img' src={tArgusMap} />
             <br />Website
           </a>
           <p>
-            Space Launch Telemetry calculator and analysis.
+            T-Argus is an API and web application serving up rocket launch data with a 3D map plotting flight paths in real-time for live and past rocket launch broadcasts. <br />The telemetry data comes from limited metrics available to the public, calculated by implementing machine learning tools and our own algorithms.
           </p>
         </div>
 
@@ -40,7 +49,10 @@ function ModalProjects() {
 
       <section className='project-section'>
 
-        <h2>Little League Trading Card Generator</h2>
+        <span className='project-span'>
+          <img className='project-logo' src={llbleague} alt="" />
+          <h2>Little League Trading Card Generator</h2>
+        </span>
         <b style={{ textDecoration: 'underline' }}>Technologies:</b>
         <ul className='project-ul'>
           <li>React</li>
@@ -66,7 +78,10 @@ function ModalProjects() {
 
       <section className='project-section'>
 
-        <h2>Eating Knott's Berry Farm</h2>
+        <span className='project-span'>
+          <img className='project-logo' src={knottsLogo} alt="" />
+          <h2>Eating Knott's Berry Farm</h2>
+        </span>
         <b style={{ textDecoration: 'underline' }}>Technologies:</b>
         <ul className='project-ul'>
           <li>React</li>
@@ -80,7 +95,7 @@ function ModalProjects() {
 
         <div className='desc-div lancelot'>
           <a href="http://35.91.150.237:9009/" target='_blank' >
-            <img className='project-img' src={knotts} />
+            <img className='project-img' src={knottsMap} />
             <br />Website
           </a>
           <p>
@@ -92,7 +107,10 @@ function ModalProjects() {
 
       <section className='project-section'>
 
-        <h2>Eating Disneyland</h2>
+        <span className='project-span'>
+          <img className='project-logo' src={turkeyLeg} alt="" />
+          <h2>Eating Disneyland</h2>
+        </span>
         <b style={{ textDecoration: 'underline' }}>Technologies:</b>
         <ul className='project-ul'>
           <li>Python</li>
@@ -100,13 +118,13 @@ function ModalProjects() {
           <li>PostgreSQL</li>
           <li>SQLAlchemy</li>
           <li>Folium</li>
-          <li>Hosted with AWS</li>
+          <li>(Was) Hosted with AWS</li>
         </ul>
 
         <div className='desc-div lancelot'>
-          <a href="http://eatingdisneyland.com" target='_blank'>
+          <a href="https://www.youtube.com/watch?v=2d10_6GNhvs&t=1s" target='_blank'>
             <img className='project-img' src={disneyland} />
-            <br />Website
+            <br />Project Video
           </a>
           <p>
             So I like to critique restaurants at theme parks...at least it has been inspiration for two coding projects. <br />This project was my capstone project for my own Bootcamp experience learning full stack Python Engineering. This is a simplified version of <em>Eating Knott's</em>, and of course was coded in Python using Flask. It also utilizes a PSQL database, and naturally served as a general basis for how the Knott's application was to function. <br />The next plan for these applications is to create a parent-application that will allow users to check out/rate any restaurant from <em>any</em> theme park in the U.S. and allow for them to enter the restaurants' locations themselves because I realistically don't have time to populate that much information in a database!
@@ -116,7 +134,11 @@ function ModalProjects() {
       </section>
 
       <section className='project-section'>
-        <h2>Cheater's Chance</h2>
+
+        <span className='project-span'>
+          <img className='project-logo' src={jollyRoger} alt="" />
+          <h2>Cheater's Chance</h2>
+        </span>
         <b style={{ textDecoration: 'underline' }}>Technologies:</b>
         <ul className='project-ul'>
           <li>React</li>
@@ -142,7 +164,10 @@ function ModalProjects() {
 
       <section className='project-section'>
 
-        <h2>Chat Roulette</h2>
+        <span className='project-span'>
+          <img className='project-logo' src={roulette} alt="" />
+          <h2>Chat Roulette</h2>
+        </span>
         <b style={{ textDecoration: 'underline' }}>Technologies:</b>
         <ul className='project-ul'>
           <li>React</li>
@@ -167,7 +192,10 @@ function ModalProjects() {
 
       <section className='project-section'>
 
-        <h2>Average Joe's Jury</h2>
+        <span className='project-span'>
+          <img className='project-logo' src={jury} alt="" />
+          <h2>Average Joe's Jury</h2>
+        </span>
         <b style={{ textDecoration: 'underline' }}>Technologies:</b>
         <ul className='project-ul'>
           <li>React</li>

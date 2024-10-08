@@ -16,6 +16,16 @@
 }
 
 /* Fonts */
+.courier {
+  font-family: "Courier New", monospace;
+  font-weight: 800;
+  font-style: normal;
+}
+.courier-lite {
+  font-family: "Courier New", monospace;
+  font-weight: 400;
+  font-style: bold;
+}
 .almendra {
   font-family: "Almendra Display", serif;
   font-weight: 400;
@@ -198,4 +208,13 @@ input, textarea {
 }
 .project-img {
   height: 25vh;
+}
+.project-logo {
+  height: 5vh;
+  margin-right: 2%;
+}
+.project-span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
